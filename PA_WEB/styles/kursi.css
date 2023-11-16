@@ -1,0 +1,187 @@
+#myCheckbox {
+  /* Hide the default checkmark */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Add a custom style to the checkbox */
+  /* border: 2px solid #38354B; */
+  width: 40px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: #38354b;
+  cursor: pointer;
+}
+
+#myCheckbox:checked {
+  /* Add a custom style to the checked checkbox */
+  background-color: #009f00;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content:center;
+}
+
+.kursi {
+  margin: 5px;
+}
+
+.denah {
+  height: 390px;
+  width: 810px;
+}
+
+.kosong {
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bioskop {
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+  position: relative;
+  text-align: center;
+}
+
+.screen {
+  text-align: center;
+  background-color: white;
+  color: black;
+  width: 75%;
+}
+
+.tengah {
+  display: flex;
+  justify-content: center;
+}
+
+.status {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #777;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.status li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.tersedia {
+  height: 35px;
+  width: 35px;
+  margin: 5px;
+  border-radius: 3px;
+  background-color: #38354b;
+}
+
+.terjual {
+  height: 35px;
+  width: 35px;
+  margin: 5px;
+  border-radius: 3px;
+  background-color: #831010;
+}
+
+@media (max-width:769px){
+  #myCheckbox {
+    width: 20px;
+    height: 20px;
+  }
+  .tersedia {
+    height: 15px;
+    width: 15px;
+  }
+  .terjual {
+    height: 15px;
+    width: 15px;
+  }
+  .kosong {
+    font-size: small;
+    width: 20px;
+    height: 20px;
+    margin: 4px;
+  }
+  .kursi {
+    margin: 4px;
+  }
+}
+
+@media (max-width:525px){
+  #myCheckbox {
+    width: 15px;
+    height: 15px;
+  }
+  .tersedia {
+    height: 10px;
+    width: 10px;
+  }
+  .terjual {
+    height: 10px;
+    width: 10px;
+  }
+  .kosong {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+@media (max-width:425px){
+  #myCheckbox {
+    width: 12px;
+    height: 12px;
+  }
+  .tersedia {
+    height: 7px;
+    width: 7px;
+  }
+  .terjual {
+    height: 7px;
+    width: 7px;
+  }
+  .kosong {
+    width: 12px;
+    height: 12px;
+    margin: 3px;
+  }
+  .kursi {
+    margin: 3px;
+  }
+}
+
+@media (max-width:360px){
+  #myCheckbox {
+    width: 10px;
+    height: 10px;
+  }
+  .tersedia {
+    height: 5px;
+    width: 5px;
+  }
+  .terjual {
+    height: 5px;
+    width: 5px;
+  }
+  .kosong {
+    font-size: small;
+    width: 10px;
+    height: 10px;
+    margin: 2px;
+  }
+  .kursi {
+    margin: 2px;
+  }
+}

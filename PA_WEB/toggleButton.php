@@ -1,0 +1,1 @@
+<button id="toggle-mode"><img id="dark" width="32px" height="32px" src="./img/sun.png" alt=""><img id="light" width="32px" height="32px" src="./img/moon.png" alt=""></button>
